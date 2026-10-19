@@ -1,0 +1,32 @@
+{
+  "features": [
+    "current_load",
+    "previous_load",
+    "recent_boarding",
+    "recent_alighting",
+    "recent_net_flow",
+    "hist_next_boarding",
+    "hist_next_alighting",
+    "stop_position",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos",
+    "hist_load_mean"
+  ],
+  "horizons": [
+    1,
+    2,
+    3
+  ],
+  "capacity": 50,
+  "thresholds": {
+    "warning": 0.8,
+    "critical": 1.0
+  },
+  "split": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  }
+}
